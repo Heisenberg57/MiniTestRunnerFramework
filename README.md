@@ -9,7 +9,7 @@ It demonstrates how core **OOP principles** (Abstraction, Polymorphism, Interfac
 
 ---
 
-## 🔹 Concepts Covered
+##  Concepts Covered
 - **Abstract Class (`BaseTest`)**
   - Defines a contract for all tests (`runTest()`).
   - Provides reusable setup logic (`setup()`).
@@ -33,7 +33,7 @@ It demonstrates how core **OOP principles** (Abstraction, Polymorphism, Interfac
 
 ---
 
-## 🔹 How It Works
+##  How It Works
 1. Define tests (`LoginTest`, `CheckoutTest`) → each implements `runTest()`.
 2. Define browsers (`ChromeDriver`, `FirefoxDriver`) → each implements `BrowserDriver`.
 3. `TestRunner` uses **nested loops**:
@@ -43,11 +43,11 @@ It demonstrates how core **OOP principles** (Abstraction, Polymorphism, Interfac
 
 ---
 
-## 🔹 Sample Output
+##  Sample Output
 
 ---
 
-## 🔹 Key Learning
+##  Key Learning
 - Abstract classes ensure **consistency** across tests.
 - Interfaces allow **browser independence**.
 - Polymorphism provides **scalability** → new tests or drivers plug in easily.
@@ -55,7 +55,7 @@ It demonstrates how core **OOP principles** (Abstraction, Polymorphism, Interfac
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 In future bootcamp days:
 - Add **data-driven testing** (parameters from CSV/Excel).  
 - Add **Page Object Model (POM)** for better UI test design.  
